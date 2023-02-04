@@ -10,6 +10,7 @@ int amount = int.Parse(Console.ReadLine()!);
 string[] array = new string[amount];
 string[] arrayNew = new string[array.Length];
 CreatArray(array, arrayNew);
+PrintArray(arrayNew);
 
 string[] CreatArray(string[] array, string[] arrayNew)
 {
